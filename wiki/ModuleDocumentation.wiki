@@ -1,4 +1,81 @@
-#summary Developer documentation for the GrapeFruit class and methods
+#summary Developer documentation for the GrapeFruit module.
 #labels Phase-Implementation
 
-==Coming soon...==
+=Coming soon...=
+
+==Introduction==
+
+==Module Variables==
+
+====whiteReferences====
+====namedColors====
+
+==Conversion functions==
+
+====rgbToHSL====
+====hslToRGB====
+====rgbToHSV====
+====hsvToRGB====
+====rgbToYIQ====
+====yiqToRGB====
+====rgbToYUV====
+====yuvToRGB====
+====rgbToXYZ====
+====xyzToRGB====
+====xyzToLAB====
+====labToXYZ====
+====cmykToCMY====
+====cmyToCMYK====
+====rgbToCMY====
+====cmyToRGB====
+====rgbToHTML====
+====htmlToRGB====
+====rgbToPIL====
+====pilToRGB====
+====rgbToWebSafe====
+====rgbToGreyscale====
+
+==The Color class==
+
+===Instanciation===
+====fromRGB====
+====fromHSL====
+====fromHSV====
+====fromYIQ====
+====fromYUV====
+====fromXYZ====
+====fromLAB====
+====fromCMY====
+====fromCMYK====
+====fromHTML====
+====fromPIL====
+
+===Conversion Properties===
+====Color.rgb====
+====Color.hsl====
+====Color.hsv====
+====Color.yiq====
+====Color.yuv====
+====Color.xyz====
+====Color.lab====
+====Color.cmy====
+====Color.cmyk====
+====Color.html====
+====Color.pil====
+====Color.webSafe====
+====Color.greyscale====
+
+===Operations===
+====Color.colorWitgAlpha====
+====Color.colorWithHue====
+====Color.colorWithSaturation====
+====Color.colorWithLightness====
+====Color.darkerColor====
+====Color.lighterColor====
+====Color.complementaryColor====
+====Color.webSafeDither====
+====Color.triadicScheme====
+====Color.tetradicScheme====
+====Color.analogousScheme====
+====Color.alphaBlend====
+====Color.blend====
